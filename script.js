@@ -48,15 +48,66 @@ scenarioButtons.forEach((button) => button.addEventListener('click', () => {
   scenarioButtons.forEach((item) => item.classList.toggle('is-selected', item === button));
   const scenario = scenarios[button.dataset.scenario];
   input.value = scenario.label;
-  showRecommendations(scenario.label, scenario.products);
 }));
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
+
   const need = input.value.trim();
   if (!need) return;
-  const matchedScenario = /美元|外幣|定存/.test(need) ? scenarios.deposit : /日本|旅遊|日圓|出國/.test(need) ? scenarios.travel : scenarios.wealth;
-  showRecommendations(need, matchedScenario.products);
+
+  summary.textContent = `正在分析你的需求：「${need}」...`;
+  grid.replaceChildren();
+  resultSection.hidden = false;
+
+  try {
+    const response = await fetch('http://127.0.0.1:8000/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        question: need
+      })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.detail || 'API request failed');
+    }
+
+    summary.textContent = data.answer;
+
+    const sources = Array.isArray(data.sources) ? data.sources : [];
+
+    grid.replaceChildren(...sources.map((source) => {
+      const card = document.createElement('article');
+      card.className = 'recommendation-card';
+
+      const title = document.createElement('h3');
+      title.textContent = source.title || '相關活動';
+
+      card.appendChild(title);
+
+      if (source.url) {
+        const link = document.createElement('a');
+        link.href = source.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = '查看活動來源 →';
+        card.appendChild(link);
+      }
+
+      return card;
+    }));
+
+    resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } catch (error) {
+    console.error('Chat API error:', error);
+    summary.textContent = `目前無法取得 AI 回覆：${error.message}`;
+    grid.replaceChildren();
+  }
 });
 
 document.querySelector('#resetButton').addEventListener('click', () => {
