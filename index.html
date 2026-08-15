@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="智慧金融推薦助理介面示範。" />
     <title>智慧金融推薦助理</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=20260815-9" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="智慧金融推薦助理首頁">
-        <span class="brand-mark" aria-hidden="true">FE</span>
         <span>智慧金融推薦助理</span>
       </a>
       <nav aria-label="主要導覽"><a href="#advisor">服務介紹</a><a href="#how-it-works">理財觀點</a><a href="#advisor">聯絡專員</a></nav>
-      <div class="header-actions"><a class="style-switch" href="modern.html">數位風格版</a><span class="demo-badge">DEMO · MOCK DATA</span></div>
+      <div class="header-actions"><button class="quiz-launch" id="quizLaunch" type="button"><span aria-hidden="true">✦</span><span><small>60 秒探索</small><b id="currentStyleLabel">我的財務風格</b></span></button></div>
     </header>
 
     <main id="top">
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">AI FINANCIAL ASSISTANT · DATA INSIGHT</p>
-          <h1>讓每一筆資金，<br /><em>都有更從容的去處。</em></h1>
-          <p class="hero-copy">從外幣配置、旅遊準備到資產規劃，依您的需求提供可進一步了解的服務方向。</p>
+          <p class="hero-eyebrow">FROM YOUR PLANS · TO WHAT COMES NEXT</p>
+          <h1 class="hero-title"><span id="heroTitleLead">每一個打算，</span><em id="heroTitleAccent">都值得更好的下一步。</em></h1>
+          <span class="hero-divider" aria-hidden="true"></span>
+          <p class="hero-copy"><span id="heroCopyLead">不論是資金安排、旅行計畫，或還沒想清楚的選擇，</span><span id="heroCopyClose">從你的需求出發，找到適合自己的方向。</span></p>
           <a class="primary-button" href="#advisor">開始規劃 <span aria-hidden="true">→</span></a>
         </div>
-        <div class="hero-graphic" aria-hidden="true">
-          <div class="folio"><span>F E I B</span><i></i></div><div class="compass"><b>✦</b><span>N</span><span>E</span><span>S</span><span>W</span></div>
-        </div>
+        <figure class="hero-visual"><img id="heroThemeImage" src="assets/hero-heritage-library.png" alt="深木藏書室中的皮革帳冊與經典銀行燈，象徵審慎而長遠的財務規劃" /></figure>
       </section>
 
       <section class="advisor-section" id="advisor">
@@ -38,9 +39,9 @@
         </div>
 
         <div class="scenario-list" aria-label="需求情境">
-          <button class="scenario-card" data-scenario="deposit" type="button"><span class="scenario-icon">＄</span><span><b>外幣與儲蓄</b><small>例如：我想了解美元定存</small></span><i>↗</i></button>
-          <button class="scenario-card" data-scenario="travel" type="button"><span class="scenario-icon">✈</span><span><b>旅遊與消費</b><small>例如：近期要去日本旅遊</small></span><i>↗</i></button>
-          <button class="scenario-card" data-scenario="wealth" type="button"><span class="scenario-icon">↗</span><span><b>資金與理財規劃</b><small>例如：我想規劃閒置資金</small></span><i>↗</i></button>
+          <button class="scenario-card" data-scenario="deposit" type="button"><span class="scenario-icon">＄</span><span><b>外幣與儲蓄</b></span><i>↗</i></button>
+          <button class="scenario-card" data-scenario="travel" type="button"><span class="scenario-icon">◇</span><span><b>消費與生活優惠</b></span><i>↗</i></button>
+          <button class="scenario-card" data-scenario="wealth" type="button"><span class="scenario-icon">↗</span><span><b>投資與理財規劃</b></span><i>↗</i></button>
         </div>
 
         <form class="need-form" id="needForm">
@@ -60,7 +61,7 @@
         </div>
         <p class="need-summary" id="needSummary"></p>
         <div class="recommendation-grid" id="recommendationGrid"></div>
-        <p class="disclaimer" id="disclaimer">此頁面為專案 UI 示意，所有推薦、數據及產品資訊皆為 mock data，不構成金融商品招攬、要約、投資或交易建議。正式服務上線前，應以及專人說明為準。</p>
+        <p class="disclaimer" id="disclaimer">資料整理自遠東商銀官網活動與常見問題，實際資格、期間、利率、回饋及限制條件應以來源頁面最新公告為準。本頁內容不構成金融商品招攬、要約、投資或交易建議。</p>
       </section>
 
       <section class="how-section">
@@ -74,6 +75,36 @@
     </main>
 
     <footer><span>智慧金融推薦助理</span><span>Frontend UI Prototype · 2026</span></footer>
-    <script src="script.js"></script>
+
+    <dialog class="style-quiz" id="styleQuiz" aria-labelledby="quizTitle">
+      <button class="quiz-close" id="quizClose" type="button" aria-label="關閉財務風格探索">×</button>
+      <div class="quiz-intro" id="quizIntro">
+        <p class="quiz-kicker">FINANCIAL STYLE DISCOVERY</p>
+        <span class="quiz-ornament" aria-hidden="true">✦</span>
+        <h2 id="quizTitle">你的財務習慣，<br />適合哪一種規劃方式？</h2>
+        <p>用 5 個簡單選擇，找出最適合你的瀏覽風格。約 60 秒完成。</p>
+        <button class="quiz-primary" id="quizStart" type="button">開始探索 <span aria-hidden="true">→</span></button>
+        <small>此測驗僅調整網站呈現方式，不構成投資風險評估或金融建議。</small>
+      </div>
+
+      <div class="quiz-question" id="quizQuestion" hidden>
+        <div class="quiz-progress"><span id="quizStep">01 / 05</span><i><b id="quizProgressBar"></b></i></div>
+        <p class="quiz-kicker">YOUR FINANCIAL HABITS</p>
+        <h2 id="quizQuestionText"></h2>
+        <div class="quiz-options" id="quizOptions"></div>
+        <button class="quiz-back" id="quizBack" type="button">← 上一題</button>
+      </div>
+
+      <div class="quiz-result" id="quizResult" hidden>
+        <p class="quiz-kicker">YOUR FINANCIAL STYLE</p>
+        <span class="result-monogram" id="resultMonogram" aria-hidden="true">傳</span>
+        <p class="result-label" id="resultStyleLabel">目前瀏覽風格</p>
+        <h2 id="quizResultTitle"></h2>
+        <p id="quizResultDescription"></p>
+        <div class="style-choices" id="styleChoices" aria-label="直接切換瀏覽風格"></div>
+        <div class="result-actions"><button class="quiz-primary" id="quizConfirm" type="button">確認風格 <span aria-hidden="true">→</span></button><button class="quiz-secondary" id="quizRetake" type="button">重新測驗</button></div>
+      </div>
+    </dialog>
+    <script src="script.js?v=20260815-12"></script>
   </body>
 </html>
