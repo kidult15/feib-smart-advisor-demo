@@ -1,0 +1,71 @@
+{
+  "deposit": {
+    "label": "我想了解外幣與儲蓄安排",
+    "items": [
+      {
+        "type": "美元定存",
+        "title": "2026 Q3「晶優利」美元九個月定存",
+        "description": "美元九個月定期存款優惠年利率固定 4.0%，單筆最低美元 5,000 元起，限符合活動規定的新資金申辦。外幣存款仍須留意匯兌風險。",
+        "url": "https://www.feib.com.tw/activity?id=4405"
+      },
+      {
+        "type": "新臺幣定存",
+        "title": "2026 Q3「新優利」新臺幣一年期定存",
+        "description": "一年期新臺幣定存專案，固定優惠年利率 1.80%，單筆最低新臺幣 5 萬元，資金須符合新資金認定。",
+        "url": "https://www.feib.com.tw/activity?id=4454"
+      },
+      {
+        "type": "活期存款",
+        "title": "2026 年 5 月新活利旺",
+        "description": "符合登錄及新資金條件的存款帳戶，可享美元及新臺幣活存加碼利率；實際資格、額度與計息方式以活動頁面為準。",
+        "url": "https://www.feib.com.tw/activity?id=4538"
+      }
+    ]
+  },
+  "travel": {
+    "label": "我想了解消費與生活優惠",
+    "items": [
+      {
+        "type": "日常消費",
+        "title": "遠東快樂信用卡日常消費最高 5% 回饋",
+        "description": "指定百貨超市、網購、服飾、藥妝及 LINE Pay 消費享活動回饋；須留意每月登錄、適用通路與回饋上限。",
+        "url": "https://www.feib.com.tw/activity?id=1980"
+      },
+      {
+        "type": "行動支付",
+        "title": "HAPPY GO Pay 指定通路最高 5 倍點數",
+        "description": "於百貨、線上購物、量販、電信及指定飯店等通路使用 HAPPY GO Pay 綁定遠銀卡，符合單筆滿額條件可享點數回饋。",
+        "url": "https://www.feib.com.tw/activity?id=1183"
+      },
+      {
+        "type": "旅遊體驗",
+        "title": "KKday 旅遊體驗平台刷遠銀卡最高享 85 折",
+        "description": "指定 Wifi、eSIM、行程與日本 JR 鐵路商品可使用活動優惠碼，另有累積滿額登錄回饋；各項折扣設有使用條件與上限。",
+        "url": "https://www.feib.com.tw/activity?id=4643"
+      }
+    ]
+  },
+  "wealth": {
+    "label": "我想了解投資與理財規劃",
+    "items": [
+      {
+        "type": "基金產品",
+        "title": "境內外共同基金",
+        "description": "遠銀基金理財網提供境內、境外基金商品，可依基金代碼或名稱查詢產品資料、淨值與績效；投資前仍應評估風險屬性及詳閱公開說明書。",
+        "url": "https://feibbank.moneydj.com/Fund"
+      },
+      {
+        "type": "指數型商品",
+        "title": "外國 ETF",
+        "description": "提供追蹤不同市場、產業或指數的外國 ETF 商品資訊，可一次參與一籃子標的；商品仍有市場、匯率及價格波動風險。",
+        "url": "https://feibbank.moneydj.com/ETF"
+      },
+      {
+        "type": "固定收益商品",
+        "title": "外國債券",
+        "description": "遠銀提供政府債與公司債等外國債券商品資訊，包含不同幣別、年期與收益條件；須留意信用、利率、流動性及匯率風險。",
+        "url": "https://www.feib.com.tw/L2?focusid=type2&id=p30&targetid=p5"
+      }
+    ]
+  }
+}
