@@ -8,14 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260815-9" />
+    <link rel="stylesheet" href="styles.css?v=20260816-2" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="智慧金融推薦助理首頁">
-        <span>智慧金融推薦助理</span>
-      </a>
-      <nav aria-label="主要導覽"><a href="#advisor">服務介紹</a><a href="#how-it-works">理財觀點</a><a href="#advisor">聯絡專員</a></nav>
+      <a class="brand" href="#top" aria-label="智慧金融推薦助理首頁"><span>智慧金融推薦助理</span></a>
+      <nav aria-label="主要導覽"><a href="#advisor">服務介紹</a><a href="#faq">常見問題</a><a href="#advisor">聯絡專員</a></nav>
       <div class="header-actions"><button class="quiz-launch" id="quizLaunch" type="button"><span aria-hidden="true">✦</span><span><small>60 秒探索</small><b id="currentStyleLabel">我的財務風格</b></span></button></div>
     </header>
 
@@ -35,13 +33,12 @@
         <div class="section-intro">
           <p class="eyebrow">FROM YOUR LIFE PLAN</p>
           <h2>從您的生活計畫開始</h2>
-          <p>請選擇一個情境，或用自己的話描述正在規劃的需求。</p>
         </div>
 
         <div class="scenario-list" aria-label="需求情境">
           <button class="scenario-card" data-scenario="deposit" type="button"><span class="scenario-icon">＄</span><span><b>外幣與儲蓄</b></span><i>↗</i></button>
           <button class="scenario-card" data-scenario="travel" type="button"><span class="scenario-icon">◇</span><span><b>消費與生活優惠</b></span><i>↗</i></button>
-          <button class="scenario-card" data-scenario="wealth" type="button"><span class="scenario-icon">↗</span><span><b>投資與理財規劃</b></span><i>↗</i></button>
+          <button class="scenario-card" data-scenario="wealth" type="button"><span class="scenario-icon">◈</span><span><b>投資與理財規劃</b></span><i>↗</i></button>
         </div>
 
         <form class="need-form" id="needForm">
@@ -64,7 +61,22 @@
         <p class="disclaimer" id="disclaimer">資料整理自遠東商銀官網活動與常見問題，實際資格、期間、利率、回饋及限制條件應以來源頁面最新公告為準。本頁內容不構成金融商品招攬、要約、投資或交易建議。</p>
       </section>
 
-      <section class="how-section">
+      <section class="faq-section" id="faq" aria-labelledby="faqTitle">
+        <div class="faq-heading">
+          <p class="eyebrow">CLIENT SUPPORT · FAQ</p>
+          <h2 id="faqTitle">常見問題</h2>
+          <p>從最常遇到的問題開始，快速找到需要的資訊。</p>
+        </div>
+        <div class="faq-tabs" id="faqTabs" role="tablist" aria-label="常見問題分類"></div>
+        <div class="faq-layout">
+          <div>
+            <div class="faq-list" id="faqList" aria-live="polite"><p class="faq-status">正在載入常見問題⋯⋯</p></div>
+            <button class="faq-more" id="faqMore" type="button" hidden>查看此分類全部問題 <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works">
         <p class="eyebrow">HOW THE ASSISTANT HELPS</p>
         <div class="how-grid">
           <div><span>01</span><h3>理解需求</h3><p>以自然語言辨識客戶的目標、時間與使用情境。</p></div>
@@ -75,7 +87,6 @@
     </main>
 
     <footer><span>智慧金融推薦助理</span><span>Frontend UI Prototype · 2026</span></footer>
-
     <dialog class="style-quiz" id="styleQuiz" aria-labelledby="quizTitle">
       <button class="quiz-close" id="quizClose" type="button" aria-label="關閉財務風格探索">×</button>
       <div class="quiz-intro" id="quizIntro">
@@ -86,7 +97,6 @@
         <button class="quiz-primary" id="quizStart" type="button">開始探索 <span aria-hidden="true">→</span></button>
         <small>此測驗僅調整網站呈現方式，不構成投資風險評估或金融建議。</small>
       </div>
-
       <div class="quiz-question" id="quizQuestion" hidden>
         <div class="quiz-progress"><span id="quizStep">01 / 05</span><i><b id="quizProgressBar"></b></i></div>
         <p class="quiz-kicker">YOUR FINANCIAL HABITS</p>
@@ -94,10 +104,9 @@
         <div class="quiz-options" id="quizOptions"></div>
         <button class="quiz-back" id="quizBack" type="button">← 上一題</button>
       </div>
-
       <div class="quiz-result" id="quizResult" hidden>
         <p class="quiz-kicker">YOUR FINANCIAL STYLE</p>
-        <span class="result-monogram" id="resultMonogram" aria-hidden="true">傳</span>
+        <span class="result-mark" id="resultMark" aria-hidden="true"><i></i><i></i><i></i></span>
         <p class="result-label" id="resultStyleLabel">目前瀏覽風格</p>
         <h2 id="quizResultTitle"></h2>
         <p id="quizResultDescription"></p>
@@ -105,6 +114,7 @@
         <div class="result-actions"><button class="quiz-primary" id="quizConfirm" type="button">確認風格 <span aria-hidden="true">→</span></button><button class="quiz-secondary" id="quizRetake" type="button">重新測驗</button></div>
       </div>
     </dialog>
-    <script src="script.js?v=20260815-12"></script>
+    <script src="script.js?v=20260816-2"></script>
+    <script src="theme.js?v=20260816-2"></script>
   </body>
 </html>
