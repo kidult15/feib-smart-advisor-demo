@@ -1,0 +1,304 @@
+{
+  "source_url": "https://www.feib.com.tw/",
+  "translation_notice": "English translations are provided for convenience. The latest official Chinese information prevails.",
+  "categories": [
+    {
+      "id": "contentFinancialManagement",
+      "name": "Investing",
+      "faqs": [
+        {
+          "question": "What is the cutoff time for a one-time fund investment?",
+          "answer_text": "Offshore funds: complete the transaction through a branch, online banking, or mobile banking by 3:30 p.m. on a business day for same-day processing.\nDomestic funds: the cutoff is 3:30 p.m.; the cutoff for money-market funds is 10:30 a.m.\nTransactions submitted after the cutoff or on a holiday are processed on the next financial-institution business day."
+        },
+        {
+          "question": "When should I set up or change a regular fund investment plan?",
+          "answer_text": "Complete a new regular-investment instruction or any change—including the amount, debit account, debit date, suspension, or resumption—through a branch, online banking, or mobile banking by 3:30 p.m. on the financial-institution business day before the scheduled debit date. Later changes take effect from the following investment date. Keep sufficient funds in the account by the preceding business day."
+        },
+        {
+          "question": "Which debit dates can I choose for a regular fund investment?",
+          "answer_text": "You may choose up to three dates from the 1st to the 31st of each month. Alternatively, you may choose up to five weekdays for weekly or biweekly deductions. After choosing monthly deductions, you cannot switch the same instruction to weekly or biweekly deductions, and vice versa. Promotional fund plans remain subject to their campaign rules."
+        },
+        {
+          "question": "Can regular fund investments be debited from another bank account or a credit card?",
+          "answer_text": "No. Debits from a demand or savings account at another bank, or from a credit card, are not currently supported."
+        },
+        {
+          "question": "When will regular fund deductions be stopped?",
+          "answer_text": "The bank automatically stops deductions after six consecutive failed debits. Your existing fund units remain in the account and are not redeemed automatically. Apply to resume deductions if you want the plan to continue."
+        },
+        {
+          "question": "When will fund redemption proceeds be credited?",
+          "answer_text": "Offshore funds are generally credited about two to six financial-institution business days after the redemption takes effect. Domestic funds generally take two to nine business days; domestic money-market funds are generally credited on the next business day. Actual timing depends on the latest prospectus for each fund."
+        },
+        {
+          "question": "Can I redeem a regular fund investment after only three deductions?",
+          "answer_text": "Yes. However, if all units under a subscription number are redeemed after six or fewer cumulative deductions, a redemption fee is charged when the trust principal and earnings are returned. Fund campaign rules may specify additional redemption fees."
+        },
+        {
+          "question": "After converting a regularly purchased fund, which fund will the next deduction buy?",
+          "answer_text": "After a full conversion, the next deduction purchases the fund received through the conversion. After a partial conversion, the next deduction continues to purchase the original fund."
+        },
+        {
+          "question": "Can domestic and offshore funds be converted, and are there limits?",
+          "answer_text": "Funds managed by the same fund company may generally be converted, subject to that company's short-term trading rules. Minimum partial redemption, conversion, and remaining trust amounts apply. Front-end-load funds generally require full redemption or conversion unless the minimum thresholds are met. Back-end-load offshore funds only accept a full redemption or conversion of all units in each holding."
+        },
+        {
+          "question": "Are there fees for converting a fund?",
+          "answer_text": "Conversion fees may be charged by the trustee and the fund company. For front-end-load offshore mutual funds, the trustee currently charges NT$500 per conversion; no trustee conversion fee applies to domestic mutual funds. Fund companies may charge approximately 0%–1.5%, depending on the product. Read the latest prospectus before investing. Regulatory approval does not mean a fund is risk-free, and past performance does not guarantee future returns."
+        }
+      ]
+    },
+    {
+      "id": "contentCreditCard",
+      "name": "Credit Cards",
+      "faqs": [
+        {
+          "question": "What are the eligibility and document requirements for a credit card?",
+          "answer_text": "Primary cardholder: an adult applicant up to age 70 must provide copies of both sides of their ID, proof of financial resources, and a completed application. Examples of financial proof include a withholding statement, the latest three salary deposits, sealed payslips, or a time deposit held for more than six months.\nSupplementary cardholder: the applicant must be at least 15 and be an eligible relative of the primary cardholder, such as a parent, parent-in-law, spouse, child, or sibling. ID copies and an application are required."
+        },
+        {
+          "question": "How can I activate a newly received credit card?",
+          "answer_text": "Available methods include the automated activation line at 02-8073-0505, scanning the QR code, the FEIB website, online banking, the Far Eastern mobile banking app, or assisted activation at 02-8073-1166 / 0800-261-732. Online banking members can sign in and go to Credit Card → Service Applications → Online Activation."
+        },
+        {
+          "question": "When is a credit card statement sent?",
+          "answer_text": "Statements are generally sent within one to two business days after the closing date. Paper statements are mailed on the next business day. Electronic statements and mobile statements are sent to the registered email address or mobile number within one to two business days."
+        },
+        {
+          "question": "How can I pay my credit card bill?",
+          "answer_text": "Payment options include convenience stores, participating bank and post-office counters, Far EasTone stores, postal giro, bank transfer, cheque, automatic debit, FEIB branches, ATM or Web ATM, a demand-deposit account, the nationwide payment network, FEIB deposit machines, telephone banking, online banking, and Visa debit-card QR code payment. See https://www.feib.com.tw/detail?id=186 for details."
+        },
+        {
+          "question": "How can I request another copy of my statement?",
+          "answer_text": "Call the customer service centre at 02-8073-1166 / 0800-261-732, use telephone banking, or ask the Smart Little Happy assistant on the FEIB website."
+        },
+        {
+          "question": "What should I do if my statement includes a transaction I do not recognise?",
+          "answer_text": "The cardholder should call the FEIB customer service centre immediately at 02-8073-1166 / 0800-261-732 for assistance."
+        },
+        {
+          "question": "How can I check my available credit?",
+          "answer_text": "Check through the customer service centre at 02-8073-1166 / 0800-261-732, telephone banking, FEIB online banking, or the Smart Little Happy assistant on the FEIB website."
+        },
+        {
+          "question": "Can my credit limit be adjusted?",
+          "answer_text": "Yes. Apply through customer service at 02-8073-1166 / 0800-261-732, through the FEIB website under i-Counter → Credit Card → Permanent/Temporary Credit Limit Adjustment, or through the Smart Little Happy assistant. Approval remains at the bank's discretion."
+        },
+        {
+          "question": "How do I report a lost card and request a replacement?",
+          "answer_text": "Report the loss through customer service at 02-8073-1166 / 0800-261-732, or sign in to FEIB online or mobile banking and go to Credit Card → Service Applications → Report Lost Card. To request a replacement card, call customer service."
+        },
+        {
+          "question": "What is the lost-card fee, and can a report be cancelled?",
+          "answer_text": "The lost-card handling fee is NT$200 per card and is charged on the statement. If you find the card on the same day, contact the bank before its cancellation deadline and complete the cancellation process to avoid the fee. Ask customer service for the applicable deadline."
+        },
+        {
+          "question": "How can I request a cash advance?",
+          "answer_text": "Cash advances are available over the counter at eligible Visa, Mastercard, or JCB member banks; through telephone banking at 02-8073-0503 after registering the primary cardholder's bank account; or at eligible ATMs after applying for a cash-advance PIN. Overseas counter service may require your passport, and overseas ATMs must display the relevant card-network logo."
+        },
+        {
+          "question": "What is the cash-advance fee?",
+          "answer_text": "Domestic: 3% of the cash-advance amount plus NT$150.\nOverseas: a 1.5% international processing fee, plus 3% of the cash-advance amount, plus NT$150."
+        },
+        {
+          "question": "How do I register a vehicle for roadside assistance?",
+          "answer_text": "See https://www.feib.com.tw/detail?id=176. Register through customer service, FEIB online banking, or a paper application. Registration must be completed in advance, is limited to one vehicle per cardholder for primary and supplementary cards separately, and normally takes effect after three business days. Vehicle information changes are limited to three times."
+        },
+        {
+          "question": "Which vehicles are eligible for roadside assistance registration?",
+          "answer_text": "Eligible privately used passenger cars, vans, and empty light trucks must weigh no more than 3.5 tonnes, be no longer than 520 cm, and be no wider than 200 cm. Company, commercial, certain short-term rental, shuttle, camper, racing, engineering, agricultural, modified, low-clearance, and heavier vehicles are excluded."
+        },
+        {
+          "question": "Are airport parking benefits available?",
+          "answer_text": "Current eligibility, benefit periods, and conditions are available at https://www.feib.com.tw/detail?id=177."
+        },
+        {
+          "question": "Are there uTagGo/Dodohome city parking benefits?",
+          "answer_text": "Current campaign periods and conditions are available at https://www.feib.com.tw/detail?id=177."
+        },
+        {
+          "question": "How can I set up automatic payment for utility bills?",
+          "answer_text": "Submit the FEIB credit-card utility-payment agreement by fax to 02-8258-9552 or by post, apply through online banking under Credit Card → Service Applications → Utility Auto-payment, use the FEIB i-Counter, or call 02-8073-1166 / 0800-261-732. Utility payments do not earn bonus or HAPPY GO points."
+        },
+        {
+          "question": "Does the credit card include travel accident insurance?",
+          "answer_text": "During the insurance period, eligible cardholders and covered family members may receive travel accident insurance when an eligible FEIB credit card pays the full public-transport fare or at least 80% of an eligible tour fee. Coverage terms and exclusions apply."
+        },
+        {
+          "question": "What does the travel accident insurance cover?",
+          "answer_text": "See the current coverage period, benefits, limits, and conditions at https://www.feib.com.tw/detail?id=180."
+        },
+        {
+          "question": "Why must I protect the OTP used for 3-D Secure card verification?",
+          "answer_text": "A 3-D Secure OTP is as important as a debit-card PIN. Never share it. Fraudsters may use marketing messages and fake links to steal card details or bind a card to a fraudulent mobile-payment account. Verify campaigns, avoid unknown links and shopping sites, and check real-time transaction alerts. For concerns, call Taiwan's 165 anti-fraud hotline or FEIB customer service at (02) 8073-1166 / 0800-261-732."
+        }
+      ]
+    },
+    {
+      "id": "contentDeposit",
+      "name": "Deposits & Accounts",
+      "faqs": [
+        {
+          "question": "What documents does an individual need to open an account?",
+          "answer_text": "Visit a branch in person with your original national ID, a second ID such as a driver's licence, NHI card, or passport, your seal, and the NT$1,000 minimum opening deposit for a TWD demand-deposit account."
+        },
+        {
+          "question": "What do I need to open a payroll account?",
+          "answer_text": "Visit a branch in person with your original national ID, a second ID, your seal, and proof of employment or an employee ID card."
+        },
+        {
+          "question": "What is required to open an account for a minor?",
+          "answer_text": "Under age 7: household registration documents, two IDs for the legal representative, two IDs for the minor, seals for both, and an NT$1,000 opening deposit.\nAge 7 to under 18: the minor's ID or household registration documents, the legal representative's consent (or qualifying employer proof when work-related), a seal, and an NT$1,000 opening deposit. Ask a branch to confirm the latest requirements."
+        },
+        {
+          "question": "Can someone else open an account for me if I cannot visit a branch?",
+          "answer_text": "No. To protect your information, you must open the account in person. Bring two IDs and your seal to a branch during business hours."
+        },
+        {
+          "question": "How is interest from a time deposit paid?",
+          "answer_text": "Interest may be collected at a branch in cash or transferred to an account, or you may instruct the bank in advance to credit it automatically to your own designated account on the payment date. Cash interest or interest credited to someone else's account may be subject to stamp tax. TWD time-deposit interest is credited net of applicable income tax and supplementary NHI premiums."
+        },
+        {
+          "question": "What documents are required to inherit the account of a deceased depositor?",
+          "answer_text": "Requirements depend on the total inherited deposit amount and may include the passbook or certificate, an inheritance application and authorisation, estate-tax clearance or exemption documents, proof of death, household-registration documents identifying all lawful heirs, and IDs and seals for the heirs. Additional notarised or authenticated authorisations apply when an heir appoints someone else, including overseas appointments. A simplified process is available for total inherited deposits of NT$30,000 or less. Contact a branch before visiting to confirm the complete document set."
+        },
+        {
+          "question": "How do I unlock a debit card if I forgot the PIN or entered it incorrectly three times?",
+          "answer_text": "Visit any branch in person with two IDs, your registered seal, and the debit card. The first unlock each month is free; the second and subsequent unlocks cost NT$20 per card."
+        },
+        {
+          "question": "What should I do if my debit card is lost?",
+          "answer_text": "Immediately call the debit-card loss hotline at 0800-231-788 or the customer service centre. Then visit any branch during business hours with your ID and registered seal to request a replacement. The replacement fee is NT$100."
+        },
+        {
+          "question": "What are the debit-card ATM withdrawal and transfer fees?",
+          "answer_text": "FEIB ATM withdrawals and internal transfers are free. An interbank withdrawal costs NT$5 per transaction, and an interbank transfer costs NT$15 per transaction."
+        },
+        {
+          "question": "What are the debit-card withdrawal and transfer limits?",
+          "answer_text": "ATM withdrawals: up to NT$150,000 per calendar day. A single FEIB ATM withdrawal is generally NT$30,000 or NT$50,000 depending on the machine; a non-FEIB ATM single withdrawal is NT$20,000.\nNon-designated transfers: NT$30,000 per transaction and per day.\nDesignated transfers: up to NT$5 million per transaction/day within FEIB; interbank transfers up to NT$2 million per transaction and NT$3 million per day. Limits are combined across automated channels, including OTP transfers and tax or fee payments."
+        },
+        {
+          "question": "How do I enable overseas withdrawals on my debit card?",
+          "answer_text": "Visit any branch with two IDs and your registered account seal to apply for and activate international ATM withdrawals. You can then use ATMs displaying the Mastercard/Cirrus logo. FE Direct cards do not currently support this feature. Special regional network arrangements may change, so confirm current availability before travelling."
+        },
+        {
+          "question": "Which overseas ATMs can I use?",
+          "answer_text": "Use an ATM displaying the Mastercard/Cirrus logo with an eligible debit card; FE Direct and Bankee cards are excluded. Regional services in Japan, Hong Kong, and Macau have separate availability rules. Confirm the latest service coverage before travelling."
+        },
+        {
+          "question": "How are overseas ATM withdrawal fees calculated?",
+          "answer_text": "At Mastercard/Cirrus ATMs, the amount is converted using Mastercard's exchange rate and the account is charged NT$70 plus a 1.1% international processing fee per transaction. Separate regional network fees may apply in Hong Kong and Macau. Japan service through the referenced local network was scheduled to stop from 1 December 2023; confirm current availability."
+        },
+        {
+          "question": "Do all debit-card withdrawals outside Taiwan require advance application?",
+          "answer_text": "Some regional network services in Hong Kong and Macau may not require advance application, while general overseas withdrawals require the international withdrawal function to be enabled. Service coverage changes over time; confirm current arrangements before travelling."
+        },
+        {
+          "question": "What is the difference between account balance and available balance?",
+          "answer_text": "Account balance is the amount recorded in the account. Available balance is the amount you can actually use. It excludes held, uncleared, or legally attached funds and may include an approved overdraft or time-deposit secured-credit amount. Collection items, investment holds, securities settlement obligations, and court attachments can make the available balance lower. Approved credit facilities can make it higher. Contact FEIB customer service at (02) 8076-1166 if you have questions about your account."
+        }
+      ]
+    },
+    {
+      "id": "contentForeignExchange",
+      "name": "Foreign Exchange",
+      "faqs": [
+        {
+          "question": "What does an individual need to open a foreign-currency account?",
+          "answer_text": "Visit a branch in person with your original national ID, a second original ID, your seal, and opening funds. There is no minimum opening amount for a foreign-currency demand deposit. The general minimum for a foreign-currency time deposit is the equivalent of USD 1,000; the minimum for a CNY time deposit is CNY 20,000."
+        },
+        {
+          "question": "Do I need a separate account for every currency?",
+          "answer_text": "No. One passbook can hold multiple currencies, and eligible existing passbook accounts may be consolidated. Passbook-free transactions and combined accounts that include time deposits are also available."
+        },
+        {
+          "question": "Which foreign banknotes are available at branches, and are withdrawals limited?",
+          "answer_text": "FEIB supports USD, HKD, JPY, EUR, and CNY banknotes. All branches provide USD, JPY, and CNY cash exchange; Dongmen Branch and the Banking Department support broader foreign-currency needs. No fixed withdrawal cap is stated, but the spread between spot and cash exchange rates is charged. Contact the branch in advance for availability."
+        },
+        {
+          "question": "Is there a fee for depositing or withdrawing foreign banknotes at a branch?",
+          "answer_text": "Yes. Deposit fee: (spot buying rate − cash buying rate) × deposited amount. Withdrawal fee: (cash selling rate − spot selling rate) × withdrawn amount. For example, a EUR 1,000 deposit at rates of 40.93 and 40.40 produces a NT$530 fee; a EUR 1,000 withdrawal at rates of 41.60 and 41.28 produces a NT$320 fee. Actual rates vary."
+        },
+        {
+          "question": "Are there minimum and maximum amounts for online currency exchange?",
+          "answer_text": "Yes. The minimum transaction is the equivalent of NT$300 for each currency. A single transaction and each person's cumulative daily total must be less than the equivalent of NT$500,000. Both the TWD and foreign-currency accounts must be registered with the bank in advance."
+        },
+        {
+          "question": "How are outward international remittance fees calculated?",
+          "answer_text": "The handling fee is 0.05% of the remittance amount, with a minimum of NT$200 and maximum of NT$800, plus cable charges: NT$300 for Hong Kong/Macau and NT$450 for other regions. Remittances to Mainland China cost NT$700 per transaction. An additional USD 20 applies when requesting full-amount delivery. See https://www.feib.com.tw/detail?id=322."
+        },
+        {
+          "question": "Can I remit to an overseas account through online banking?",
+          "answer_text": "Yes. First visit a branch to register the foreign-currency account and beneficiary details for online overseas remittance. The single-transaction limit is the equivalent of NT$500,000. Standard remittance and cable fees apply."
+        },
+        {
+          "question": "What information should someone overseas use to remit money to my account?",
+          "answer_text": "Beneficiary bank: Far Eastern International Bank, International Banking Department.\nAddress: 2F, No. 30, Sec. 1, Chongqing N. Rd., Datong Dist., Taipei City 103, Taiwan, R.O.C.\nSWIFT: FEINTWTP.\nBeneficiary name: your English name exactly as shown on your passport.\nBeneficiary account: your 14-digit FEIB deposit account number."
+        },
+        {
+          "question": "Is there a fee when foreign currency is remitted into my FEIB account?",
+          "answer_text": "Yes. The incoming remittance fee is 0.05% of the remitted amount, with a minimum of NT$200 and maximum of NT$800, deducted from the proceeds. See https://www.feib.com.tw/detail?id=322 for the latest fee schedule."
+        },
+        {
+          "question": "How long does an international remittance take?",
+          "answer_text": "Typical timing is about two to three business days for Asia, the United States, Canada, Australia, and New Zealand, although special cases may take about a week. Europe generally takes at least three to five business days and may take around one week. Intermediary banks and compliance checks can affect timing."
+        },
+        {
+          "question": "How can I check an incoming international remittance?",
+          "answer_text": "After FEIB receives the funds and verifies the remittance information, your account-opening branch will contact you to confirm and release the funds."
+        }
+      ]
+    },
+    {
+      "id": "contentDigitalDeposit",
+      "name": "Digital Accounts",
+      "faqs": [
+        {
+          "question": "What documents do I need to open a digital deposit account?",
+          "answer_text": "Prepare your original national ID card and National Health Insurance card."
+        },
+        {
+          "question": "Who is eligible to open a digital deposit account?",
+          "answer_text": "Applicants must be natural persons registered in Taiwan, meet the legal age-of-majority requirement, and not be under guardianship or assistance. Each person may hold one general digital deposit account, even if they already have a Bankee account. For a digital securities settlement account, one account may be opened per securities company; only TWD accounts are currently available."
+        },
+        {
+          "question": "How is interest calculated for TWD and foreign-currency digital accounts?",
+          "answer_text": "TWD digital deposits use FEIB's posted TWD demand-savings rate. Interest is calculated daily and paid monthly, based on the end-of-day balance at midnight, with NT$100 as the starting and calculation unit.\nForeign-currency digital deposits use FEIB's posted foreign-currency demand-deposit rate. Interest is calculated daily and paid monthly. The starting amount is JPY 100, CNY 2,000, or one unit for other currencies.\nDigital securities settlement accounts use the posted TWD securities demand-savings rate with the same daily calculation and monthly payment approach."
+        },
+        {
+          "question": "What are the limits for non-designated transfers?",
+          "answer_text": "If you already had a physical FEIB account before applying, the digital account is generally Category 2: up to NT$50,000 per transaction, NT$100,000 per day, and NT$200,000 per month. If you did not, it is generally Category 3: up to NT$10,000 per transaction, NT$30,000 per day, and NT$50,000 per month. After upgrading to Category 1 with a Citizen Digital Certificate, the Category 2 limits apply."
+        },
+        {
+          "question": "Are there limits on free interbank withdrawals and transfers?",
+          "answer_text": "A general TWD digital deposit account provides five free interbank ATM withdrawals and five free interbank transfers per month. A digital securities settlement account provides six free interbank transfers per month. VIP programme benefits also apply, but the more favourable allowance is used rather than adding the two allowances together. The monthly period runs from the 2nd to the 1st of the following month."
+        },
+        {
+          "question": "Are free interbank transaction allowances combined with my other FEIB benefits?",
+          "answer_text": "No. Digital accounts share the ATM withdrawal and automated-channel transfer allowances provided by your VIP programme tier with your other FEIB accounts. The more favourable allowance applies; the allowances are not added together."
+        },
+        {
+          "question": "How can I view a digital deposit statement?",
+          "answer_text": "Sign in to FEIB online banking and select Service Settings → Electronic Statements → Bank Electronic Statement Enquiry."
+        },
+        {
+          "question": "How do I activate the debit card for my digital TWD account?",
+          "answer_text": "Sign in to the FEIB mobile banking app, select Debit Card Activation, and follow the prompts to receive the initial PIN. Then use any ATM in Taiwan or an FEIB Web ATM with a card reader, enter the initial PIN, and change it."
+        },
+        {
+          "question": "What if I forget my debit-card PIN or the card is locked after three incorrect attempts?",
+          "answer_text": "Visit any branch in person with two IDs, your registered seal, and the debit card. The first unlock each month is free; the second and subsequent unlocks cost NT$20 per card."
+        },
+        {
+          "question": "How do I enable non-designated transfers?",
+          "answer_text": "After the digital account is opened, sign in to the FEIB mobile banking app and choose Service Settings → Enable/Disable Non-designated Transfers, then follow the prompts. This function must be requested for every digital deposit account."
+        },
+        {
+          "question": "What other services are included with a digital deposit account?",
+          "answer_text": "Available services depend on the account type. Refer to the latest Digital Deposit Account Terms and Conditions and Digital Securities Settlement Account Terms and Conditions for the complete service list, eligibility, limits, and restrictions."
+        }
+      ]
+    }
+  ]
+}
