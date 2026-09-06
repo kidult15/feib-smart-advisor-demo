@@ -1,9 +1,9 @@
 (() => {
   const financialStyles = {
     heritage: {
-      image: 'assets/hero-heritage-library.png',
-      imageWebp: 'assets/hero-heritage-library.webp',
-      imageMobileWebp: 'assets/hero-heritage-library-mobile.webp',
+      image: 'assets/hero-heritage-library.png?v=20260906-1',
+      imageWebp: 'assets/hero-heritage-library.webp?v=20260906-1',
+      imageMobileWebp: 'assets/hero-heritage-library-mobile.webp?v=20260906-1',
       zh: {
         title: '傳承規劃者', short: '長期與信任',
         description: '你傾向先理解全貌，再做審慎而長遠的安排。沉穩、完整且值得信賴的資訊，最能幫助你做出決定。',
@@ -20,41 +20,41 @@
       }
     },
     precision: {
-      image: 'assets/hero-precision.png',
-      imageWebp: 'assets/hero-precision.webp',
-      imageMobileWebp: 'assets/hero-precision-mobile.webp',
+      image: 'assets/hero-precision.png?v=20260906-1',
+      imageWebp: 'assets/hero-precision.webp?v=20260906-1',
+      imageMobileWebp: 'assets/hero-precision-mobile.webp?v=20260906-1',
       zh: {
         title: '精準行動派', short: '清楚與效率',
         description: '你習慣釐清選項、比較差異，再果斷採取下一步。結構清楚、重點明確的資訊，最符合你的決策節奏。',
         heroTitle: ['釐清現在，', '決定下一步。'],
         heroCopy: ['將需求、時間與資金條件放在一起思考，', '找到清楚、合適，也能開始行動的方向。'],
-        alt: '深色石材、紙張與黃銅尺度構成的精準幾何畫面，象徵清晰而有效率的規劃'
+        alt: '黃銅圓頂檯燈下的高級木質西洋棋盤與對弈中的棋子，象徵思考布局與精準決策'
       },
       en: {
         title: 'Precision Strategist', short: 'Clear & efficient',
         description: 'You like to clarify the options, compare the differences, and then act decisively. Structured, focused information matches the way you make decisions.',
         heroTitle: ['Clarity for today.', 'Confidence for what’s next.'],
         heroCopy: ['Bring your needs, timing, and financial conditions into one clear view,', 'then find a practical direction you can act on.'],
-        alt: 'Dark stone, paper, and a brass ruler arranged in a precise geometric composition, representing clear and efficient planning'
+        alt: 'An inlaid wooden chessboard with a game in progress under a brass dome lamp, representing thoughtful strategy and precise decisions'
       }
     },
     lifestyle: {
-      image: 'assets/hero-lifestyle.png',
-      imageWebp: 'assets/hero-lifestyle.webp',
-      imageMobileWebp: 'assets/hero-lifestyle-mobile.webp',
+      image: 'assets/hero-lifestyle.png?v=20260906-1',
+      imageWebp: 'assets/hero-lifestyle.webp?v=20260906-1',
+      imageMobileWebp: 'assets/hero-lifestyle-mobile.webp?v=20260906-1',
       zh: {
         title: '從容生活家', short: '生活與彈性',
         description: '你會先從生活目標出發，再安排資金如何配合。溫暖、具體而保有彈性的建議，最能讓你安心前進。',
         heroTitle: ['把想過的生活，', '一步一步安排好。'],
         heroCopy: ['旅行、家庭，或還在形成中的計畫，', '從生活出發，找到舒服而適合自己的節奏。'],
-        alt: '自然光下的皮革手帳、亞麻筆記本與橄欖枝，象徵從容而有彈性的生活規劃'
+        alt: '自然光下的胡桃木黑膠唱盤、砂色陶瓶與尤加利枝葉，象徵從容而有品味的生活規劃'
       },
       en: {
         title: 'Life-first Planner', short: 'Flexible & human',
         description: 'You begin with the life you want, then decide how your finances can support it. Warm, practical, and flexible guidance helps you move forward comfortably.',
         heroTitle: ['Plan for the life you want,', 'one step at a time.'],
         heroCopy: ['For travel, family, or plans that are still taking shape,', 'begin with life and find a pace that feels natural to you.'],
-        alt: 'A leather planner, linen notebook, and olive branches in natural light, representing relaxed and flexible life planning'
+        alt: 'A walnut record player, sand-colored ceramic vase, and eucalyptus in natural light, representing relaxed and thoughtful life planning'
       }
     }
   };
